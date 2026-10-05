@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shivakumar Mailaram | SAP CPI Developer</title>
+<meta name="description" content="SAP CPI fresher building secure, API-based integrations: iFlows, JSON/XML/CSV transformation, PGP and SFTP.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F7F4; --ink:#16222E; --muted:#56636F; --line:#D5DAD6;
+  --blue:#0A4A8F; --teal:#0F7C7A; --amber:#E8A317; --card:#FFFFFF;
+  --head:"Bricolage Grotesque","Segoe UI",Arial,sans-serif;
+  --body:"Figtree","Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--body)}
+a{color:var(--blue)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header.top{border-bottom:1px solid var(--line)}
+nav{display:flex;gap:24px;align-items:center;justify-content:space-between;padding:16px 0;flex-wrap:wrap}
+nav strong{font:700 18px var(--head)}
+nav div{display:flex;gap:20px;flex-wrap:wrap}
+nav a{color:var(--ink);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--blue)}
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding:64px 0 56px}
+h1{font:700 clamp(38px,6vw,64px)/1.05 var(--head);margin:0 0 16px;letter-spacing:-.02em}
+.role{font:500 20px var(--head);color:var(--blue);margin:0 0 16px}
+.lead{color:var(--muted);max-width:52ch;margin:0 0 24px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid var(--blue)}
+.btn.main{background:var(--blue);color:#fff}
+.btn.alt{color:var(--blue)}
+.btn:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.flow{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.flow svg{display:block;width:100%;height:auto}
+.flow p{margin:8px 4px 0;font-size:14px;color:var(--muted)}
+.dash{stroke-dasharray:6 6;animation:move 1.2s linear infinite}
+@keyframes move{to{stroke-dashoffset:-24}}
+@media (prefers-reduced-motion:reduce){.dash{animation:none}html{scroll-behavior:auto}}
+section{padding:48px 0;border-top:1px solid var(--line)}
+h2{font:700 30px/1.2 var(--head);margin:0 0 24px}
+h3{font:700 22px/1.3 var(--head);margin:0 0 8px}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.skills h3{font-size:17px;color:var(--teal)}
+.skills ul{margin:0;padding-left:18px;color:var(--ink)}
+.proj{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--blue);border-radius:8px;padding:28px;margin-bottom:24px}
+.proj.b{border-left-color:var(--teal)}
+.steps{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.steps span{background:#EAF0F7;border-radius:999px;padding:4px 14px;font-size:14px;font-weight:500}
+.proj.b .steps span{background:#E3F1F0}
+.proj ul{padding-left:20px;margin:8px 0 16px}
+.proj li{margin-bottom:4px}
+.tags{font-size:14px;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.item{margin-bottom:20px}
+.item small{color:var(--muted);display:block}
+footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:15px}
+@media (max-width:760px){.hero,.two{grid-template-columns:1fr}.hero{padding-top:40px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <strong>Shivakumar Mailaram</strong>
+      <div>
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <h1>I build secure integrations between SAP and other systems.</h1>
+      <p class="role">SAP CPI Developer (Fresher)</p>
+      <p class="lead">I design iFlows in SAP Cloud Platform Integration that receive API requests, transform data between JSON, XML and CSV, and deliver it safely using PGP encryption and SFTP.</p>
+      <div class="btns">
+        <a class="btn main" href="#projects">View my projects</a>
+        <a class="btn alt" href="#contact">Contact me</a>
+      </div>
+    </div>
+    <div class="flow">
+      <svg viewBox="0 0 460 150" role="img" aria-label="Flow diagram: Postman sends an HTTPS request to the SAP CPI iFlow, which transforms and encrypts the data and sends it to an SFTP server.">
+        <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#16222E"/></marker></defs>
+        <rect x="6" y="45" width="112" height="60" rx="8" fill="#fff" stroke="#16222E" stroke-width="2"/>
+        <text x="62" y="72" text-anchor="middle" font-size="14" font-weight="600" fill="#16222E">Sender</text>
+        <text x="62" y="92" text-anchor="middle" font-size="12" fill="#56636F">Postman / HTTPS</text>
+        <rect x="174" y="25" width="112" height="100" rx="8" fill="#0A4A8F"/>
+        <text x="230" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">SAP CPI</text>
+        <text x="230" y="82" text-anchor="middle" font-size="12" fill="#DCE8F5">Mapping, Groovy</text>
+        <text x="230" y="100" text-anchor="middle" font-size="12" fill="#DCE8F5">PGP encrypt</text>
+        <rect x="342" y="45" width="112" height="60" rx="8" fill="#fff" stroke="#16222E" stroke-width="2"/>
+        <text x="398" y="72" text-anchor="middle" font-size="14" font-weight="600" fill="#16222E">Receiver</text>
+        <text x="398" y="92" text-anchor="middle" font-size="12" fill="#56636F">SFTP server</text>
+        <line class="dash" x1="120" y1="75" x2="170" y2="75" stroke="#E8A317" stroke-width="3" marker-end="url(#ar)"/>
+        <line class="dash" x1="288" y1="75" x2="338" y2="75" stroke="#E8A317" stroke-width="3" marker-end="url(#ar)"/>
+      </svg>
+      <p>The shape of my bank payment integration project.</p>
+    </div>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p style="max-width:68ch">I am a B.Tech graduate and SAP CPI fresher with hands-on experience in iFlow development, adapter configuration and JSON to XML transformations on SAP Integration Suite. I understand API-based integrations, REST services and S/4HANA integration concepts. I have built real-time style projects covering sales order processing and secure bank payment file transfer, and I want to grow within the SAP ecosystem.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div><h3>Integration</h3><ul><li>SAP CPI / Integration Suite</li><li>iFlow design and development</li><li>SAP BTP</li></ul></div>
+      <div><h3>APIs and adapters</h3><ul><li>REST, HTTPS, OData, IDoc</li><li>HTTP adapter</li><li>SFTP adapter</li></ul></div>
+      <div><h3>Data and security</h3><ul><li>Message mapping: XML, JSON, CSV</li><li>Groovy scripting</li><li>PGP encryption, secure file transfer</li></ul></div>
+      <div><h3>Other</h3><ul><li>Postman testing</li><li>Python (basics)</li><li>SQL and MySQL</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+
+    <article class="proj b">
+      <h3>End-to-end secure bank payment integration</h3>
+      <p>An integration that takes a payment request over an API, converts it to CSV, encrypts the file and delivers it to a bank-style SFTP server.</p>
+      <div class="steps" aria-label="Flow steps"><span>HTTPS request</span><span>XML to CSV (Groovy)</span><span>PGP encryption</span><span>SFTP delivery</span></div>
+      <ul>
+        <li>Designed the complete integration flow in SAP CPI.</li>
+        <li>Configured the HTTPS sender adapter to handle API-based requests.</li>
+        <li>Transformed XML data into CSV format using a Groovy script.</li>
+        <li>Implemented PGP encryption to secure the payment files.</li>
+        <li>Configured the SFTP receiver to transfer the encrypted files.</li>
+        <li>Tested and monitored the flow using Postman and CPI monitoring.</li>
+      </ul>
+      <p class="tags">SAP CPI, HTTPS, SFTP, Groovy, PGP, Postman</p>
+      <!-- Add your link below after you create the GitHub repo -->
+      <a href="https://github.com/shivamailaram/cpi-secure-bank-payment">View on GitHub</a>
+    </article>
+
+    <article class="proj">
+      <h3>Sales order integration</h3>
+      <p>An integration flow that receives sales order data through an API, converts it and passes it to the receiving system.</p>
+      <div class="steps" aria-label="Flow steps"><span>HTTPS request</span><span>JSON to XML</span><span>XSD mapping</span><span>HTTP receiver</span></div>
+      <ul>
+        <li>Developed the iFlow in SAP CPI for sales order data processing.</li>
+        <li>Configured HTTPS sender and HTTP receiver adapters for secure API communication.</li>
+        <li>Performed JSON to XML conversion and message mapping using XSD schemas.</li>
+        <li>Carried out data transformation and integration testing using Postman.</li>
+      </ul>
+      <p class="tags">SAP CPI, HTTPS, HTTP, JSON, XML, XSD, Postman</p>
+      <a href="https://github.com/shivamailaram/cpi-sales-order-integration">View on GitHub</a>
+    </article>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="two">
+      <div>
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>AI and Azure Intern</h3>
+          <small>Edunet Foundation, Hyderabad | Jul 2025 to Sep 2025</small>
+          <ul>
+            <li>Built and deployed AI models using Azure ML Studio and Cognitive Services.</li>
+            <li>Worked on Smart Career Advisor, an AI and ML web application that gives students personalised career guidance.</li>
+            <li>Logged and tracked bug reports in JIRA.</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2>Education and certificates</h2>
+        <div class="item">
+          <h3>B.Tech</h3>
+          <small>Jyothishmathi Institute of Technology and Science, Karimnagar | Nov 2021 to Aug 2025</small>
+        </div>
+        <div class="item">
+          <h3>Certificates</h3>
+          <ul>
+            <li>Hands-on training in SAP CPI</li>
+            <li>Code Tantra certificate in Python</li>
+            <li>SQL and Database Design using MySQL, Scaler Topics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>I am looking for an SAP CPI or Integration Suite role. Send me a message.</p>
+    <div class="btns">
+      <a class="btn main" href="mailto:mailaramshiva02@gmail.com">Email me</a>
+      <a class="btn alt" href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
+      <a class="btn alt" href="https://github.com/shivamailaram">GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">&copy; 2026 Shivakumar Mailaram</div></footer>
+</body>
+</html>
